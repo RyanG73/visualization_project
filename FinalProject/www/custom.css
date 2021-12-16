@@ -1,0 +1,55 @@
+.main-header .logo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.skin-blue .main-header .logo, .skin-blue .main-header .logo:hover {
+  background-color: #21A0A0;
+}
+
+.skin-blue .main-header .navbar {
+  background-color: #21A0A0;
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+  background-color: #21A9A9;
+}
+
+.main-header .sidebar-toggle {
+  float:right;
+}
+
+.skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li:hover>a {
+  border-left-color:#21A0A0;
+}
+
+.box.box-solid.box-primary>.box-header {
+  background-color: #21A0A0;
+}
+
+.box-header .box-title, .box-header>.fa, .box-header>.glyphicon, .box-header>.ion {
+    display: inline-block;
+    font-size: 18px;
+    margin: 0;
+    line-height: 1;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto',sans-serif;
+}
+
+body {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+}
+
+.dataTables_wrapper .dataTables_length{
+    float: right !important;
+}
+
+.btn-default {
+  float: right;
+  margin-bottom: 10px;
+  
+}
